@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style_login.css">
+    <script src="../JS/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <p>super</p>
+    <div class="container">
+        <div class="firs_box">
+            <div class="img_logo">
+                <img src="../IMG/02.png" alt="Logo_mavoix">
+            </div>
+            <div class="form_part">
+                <h3>Se Connecter</h3>
+                <form action="#" class="form_user">
+                    <div class="form_div">
+                        <div class="input_form">
+                            <label for="name">Email</label>
+                            <input type="email" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="form_div">
+                        <div class="input_form">
+                            <label for="lastname">Mot de passe :</label>
+                            <input type="password" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="form_div">
+                        <input type="submit" value="CONNECTION" class="btn">
+                    </div>
+
+                        <a href="register.html" class="connexion"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> se connecter</a>
+
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

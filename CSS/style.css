@@ -7,7 +7,7 @@
     border: none;
     text-transform: capitalize;
     box-sizing: border-box;
-    transition: all .3s linear;
+    transition: all .3s linear; 
 }
 
 :root{
@@ -130,3 +130,37 @@ html{
 
 
 /* mon btn */
+
+
+
+/* le responsive */
+
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:900px){
+    
+}
+
+@media(max-width:768px){
+    .container .firs_box{
+        display: block;
+    }
+    .container .firs_box .form_part form .form_div{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media(max-width:500px){
+    
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
